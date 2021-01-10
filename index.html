@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Создание форм</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Пример формы регистрации сайта</h1>
+
+    <form enctype="multipart/form-data" action="https://echo.htmlacademy.ru/courses" method="post">
+      
+	  <label for="login">Логин:</label><br>
+	  <input type="text" name="login" id="login"><br>
+	
+	  <label for="password">Пароль:</label></td><br>
+	  <input type="password" name="password" id="password"><br>
+	  
+	  <label for="adres">URL-адрес сайта:</label><br>
+	  <td><input id="adres" type="url" placeholder="http://"><br>
+	  
+	  <label for="adressN">Название сайта:</label><br>
+	  <td><input type="text" name="adressN" id="adressN"><br>
+	  
+	 <label for="count">Описание сайта:</label><br>
+	  <td><textarea rows ="8" cols ="60"></textarea><br>
+	  
+	 <label for="theame">Тема сайта:</label><br>
+	  <select name="theame">
+			<option value="no">Тема не выбрана</option>
+			<option value="light">Светлая тема</option>
+			<option value="dark">Темная тема</option>
+	  </select><br>
+	 
+	 <label for="img">Баннер 88х31:</label><br>
+	  <td><input type="file"></textarea><br> <br>
+	 
+	  <input type="reset" value="Очистить">
+	  <input type="submit" value="Отправить">
+	  
+	</table>	
+    </form>
+  </body>
+</html>
